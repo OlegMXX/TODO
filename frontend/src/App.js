@@ -74,6 +74,16 @@ function App() {
                     </Route>
                 </Switch>
             </div>
+
+            <footer className="text-center text-lg-start bg-light text-muted mt-4">
+                <div className="text-center p-4">
+                    © Copyright - <a target="_blank"
+                                     className="text-reset fw-bold text-decoration-none"
+                                     href="https://x.com/ollymxx">
+                    OllyMXX</a>
+                </div>
+            </footer>
+
         </div>
     );
 }
