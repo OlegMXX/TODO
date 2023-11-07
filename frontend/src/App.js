@@ -13,7 +13,7 @@ import {Container} from "react-bootstrap";
 
 function App() {
     // const user = null;
-    const [useer, setUser] = React.useState(null);
+    const [user, setUser] = React.useState(null);
     const [token, setToken] = React.useState(null);
     const [error, setError] = React.useState('')
 
@@ -52,7 +52,7 @@ function App() {
 
             <div className="container mt-4">
                 <Switch>
-                    <Route exact path-{["/","/todos"]} render={(props)=>
+                    <Route exact path={["/","/todos"]} render={(props)=>
                         <TodosList {...props} token={token}/>
                     }>
                     </Route>
